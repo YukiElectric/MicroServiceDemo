@@ -141,3 +141,5 @@ C:\Users\trung\Desktop\MicroServiceDemo\src\AccountAPI\bin\Debug\net8.0\runtimes
 C:\Users\trung\Desktop\MicroServiceDemo\src\AccountAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\Users\trung\Desktop\MicroServiceDemo\src\AccountAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\trung\Desktop\MicroServiceDemo\src\AccountAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\trung\Desktop\MicroServiceDemo\src\AccountAPI\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Users\trung\Desktop\MicroServiceDemo\src\AccountAPI\obj\Debug\net8.0\AccountAPI.sourcelink.json

@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIGetWay", "APIGetWay.csproj", "{13C72FB3-80FB-435E-8CE1-037B038822A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIGetWay", "APIGetWay.csproj", "{13C72FB3-80FB-435E-8CE1-037B038822A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountAPI", "..\src\AccountAPI\AccountAPI.csproj", "{42ABA7D0-D414-489F-A4DA-4D3A79559708}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountAPI", "..\src\AccountAPI\AccountAPI.csproj", "{42ABA7D0-D414-489F-A4DA-4D3A79559708}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentAPI", "..\src\StudentAPI\StudentAPI.csproj", "{9C09BADA-1E26-45A6-836F-D7B43014B835}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentAPI", "..\src\StudentAPI\StudentAPI.csproj", "{9C09BADA-1E26-45A6-836F-D7B43014B835}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

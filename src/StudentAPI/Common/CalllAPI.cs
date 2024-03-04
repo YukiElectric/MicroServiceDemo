@@ -2,7 +2,7 @@
 {
     public class CalllAPI
     {
-        public static async Task<String> getAuth(String auth, String token) 
+        public static async Task<Object> getAuth(String auth, String token) 
         {
             try
             {
@@ -11,7 +11,7 @@
                 request.Headers.Add("Authorization", token);
                 var response = await client.SendAsync(request);
                 response.EnsureSuccessStatusCode();
-                if (!response.IsSuccessStatusCode) return string.Empty;
+                if (response.IsSuccessStatusCode) return null;
                 return await response.Content.ReadAsStringAsync();
             }
             catch (Exception e) {
@@ -19,7 +19,7 @@
                 {
                     status = false,
                     message = e.Message
-                }.ToString();
+                };
             }
         }
     }

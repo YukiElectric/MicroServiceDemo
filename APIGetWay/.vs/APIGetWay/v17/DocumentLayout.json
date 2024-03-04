@@ -3,42 +3,57 @@
   "WorkspaceRootPath": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\APIGetWay\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9C09BADA-1E26-45A6-836F-D7B43014B835}|..\\src\\StudentAPI\\StudentAPI.csproj|c:\\users\\trung\\desktop\\microservicedemo\\src\\studentapi\\services\\consumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C09BADA-1E26-45A6-836F-D7B43014B835}|..\\src\\StudentAPI\\StudentAPI.csproj|c:\\users\\trung\\desktop\\microservicedemo\\src\\studentapi\\services\\producer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9C09BADA-1E26-45A6-836F-D7B43014B835}|..\\src\\StudentAPI\\StudentAPI.csproj|c:\\users\\trung\\desktop\\microservicedemo\\src\\studentapi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42ABA7D0-D414-489F-A4DA-4D3A79559708}|..\\src\\AccountAPI\\AccountAPI.csproj|c:\\users\\trung\\desktop\\microservicedemo\\src\\accountapi\\accountapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{9C09BADA-1E26-45A6-836F-D7B43014B835}|..\\src\\StudentAPI\\StudentAPI.csproj|c:\\users\\trung\\desktop\\microservicedemo\\src\\studentapi\\services\\iproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C09BADA-1E26-45A6-836F-D7B43014B835}|..\\src\\StudentAPI\\StudentAPI.csproj|c:\\users\\trung\\desktop\\microservicedemo\\src\\studentapi\\data\\studentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C09BADA-1E26-45A6-836F-D7B43014B835}|..\\src\\StudentAPI\\StudentAPI.csproj|c:\\users\\trung\\desktop\\microservicedemo\\src\\studentapi\\services\\iconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42ABA7D0-D414-489F-A4DA-4D3A79559708}|..\\src\\AccountAPI\\AccountAPI.csproj|c:\\users\\trung\\desktop\\microservicedemo\\src\\accountapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C09BADA-1E26-45A6-836F-D7B43014B835}|..\\src\\StudentAPI\\StudentAPI.csproj|c:\\users\\trung\\desktop\\microservicedemo\\src\\studentapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C09BADA-1E26-45A6-836F-D7B43014B835}|..\\src\\StudentAPI\\StudentAPI.csproj|c:\\users\\trung\\desktop\\microservicedemo\\src\\studentapi\\common\\calllapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C09BADA-1E26-45A6-836F-D7B43014B835}|..\\src\\StudentAPI\\StudentAPI.csproj|c:\\users\\trung\\desktop\\microservicedemo\\src\\studentapi\\common\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42ABA7D0-D414-489F-A4DA-4D3A79559708}|..\\src\\AccountAPI\\AccountAPI.csproj|c:\\users\\trung\\desktop\\microservicedemo\\src\\accountapi\\repositories\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42ABA7D0-D414-489F-A4DA-4D3A79559708}|..\\src\\AccountAPI\\AccountAPI.csproj|c:\\users\\trung\\desktop\\microservicedemo\\src\\accountapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42ABA7D0-D414-489F-A4DA-4D3A79559708}|..\\src\\AccountAPI\\AccountAPI.csproj|c:\\users\\trung\\desktop\\microservicedemo\\src\\accountapi\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13C72FB3-80FB-435E-8CE1-037B038822A3}|APIGetWay.csproj|c:\\users\\trung\\desktop\\microservicedemo\\apigetway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{13C72FB3-80FB-435E-8CE1-037B038822A3}|APIGetWay.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{42ABA7D0-D414-489F-A4DA-4D3A79559708}|..\\src\\AccountAPI\\AccountAPI.csproj|c:\\users\\trung\\desktop\\microservicedemo\\src\\accountapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C09BADA-1E26-45A6-836F-D7B43014B835}|..\\src\\StudentAPI\\StudentAPI.csproj|c:\\users\\trung\\desktop\\microservicedemo\\src\\studentapi\\common\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{13C72FB3-80FB-435E-8CE1-037B038822A3}|APIGetWay.csproj|c:\\users\\trung\\desktop\\microservicedemo\\apigetway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13C72FB3-80FB-435E-8CE1-037B038822A3}|APIGetWay.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C09BADA-1E26-45A6-836F-D7B43014B835}|..\\src\\StudentAPI\\StudentAPI.csproj|c:\\users\\trung\\desktop\\microservicedemo\\src\\studentapi\\studentapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C09BADA-1E26-45A6-836F-D7B43014B835}|..\\src\\StudentAPI\\StudentAPI.csproj|c:\\users\\trung\\desktop\\microservicedemo\\src\\studentapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C09BADA-1E26-45A6-836F-D7B43014B835}|..\\src\\StudentAPI\\StudentAPI.csproj|c:\\users\\trung\\desktop\\microservicedemo\\src\\studentapi\\models\\studentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C09BADA-1E26-45A6-836F-D7B43014B835}|..\\src\\StudentAPI\\StudentAPI.csproj|c:\\users\\trung\\desktop\\microservicedemo\\src\\studentapi\\data\\studentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C09BADA-1E26-45A6-836F-D7B43014B835}|..\\src\\StudentAPI\\StudentAPI.csproj|c:\\users\\trung\\desktop\\microservicedemo\\src\\studentapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C09BADA-1E26-45A6-836F-D7B43014B835}|..\\src\\StudentAPI\\StudentAPI.csproj|c:\\users\\trung\\desktop\\microservicedemo\\src\\studentapi\\studentapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42ABA7D0-D414-489F-A4DA-4D3A79559708}|..\\src\\AccountAPI\\AccountAPI.csproj|c:\\users\\trung\\desktop\\microservicedemo\\src\\accountapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
@@ -54,9 +69,6 @@
       "RelativeMoniker": "D:0:0:{13C72FB3-80FB-435E-8CE1-037B038822A3}|APIGetWay.csproj|solutionrelative:apigetway.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42ABA7D0-D414-489F-A4DA-4D3A79559708}|..\\src\\AccountAPI\\AccountAPI.csproj|c:\\users\\trung\\desktop\\microservicedemo\\src\\accountapi\\repositories\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{42ABA7D0-D414-489F-A4DA-4D3A79559708}|..\\src\\AccountAPI\\AccountAPI.csproj|c:\\users\\trung\\desktop\\microservicedemo\\src\\accountapi\\common\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -67,19 +79,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CalllAPI.cs",
-              "DocumentMoniker": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\Common\\CalllAPI.cs",
-              "RelativeDocumentMoniker": "..\\src\\StudentAPI\\Common\\CalllAPI.cs",
-              "ToolTip": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\Common\\CalllAPI.cs",
-              "RelativeToolTip": "..\\src\\StudentAPI\\Common\\CalllAPI.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAaAAAA",
+              "DocumentIndex": 0,
+              "Title": "Consumer.cs",
+              "DocumentMoniker": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\Services\\Consumer.cs",
+              "RelativeDocumentMoniker": "..\\src\\StudentAPI\\Services\\Consumer.cs",
+              "ToolTip": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\Services\\Consumer.cs",
+              "RelativeToolTip": "..\\src\\StudentAPI\\Services\\Consumer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T14:20:41.943Z",
+              "WhenOpened": "2024-03-04T05:52:51.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\Services\\IConsumer.cs",
+              "RelativeDocumentMoniker": "..\\src\\StudentAPI\\Services\\IConsumer.cs",
+              "ToolTip": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\Services\\IConsumer.cs",
+              "RelativeToolTip": "..\\src\\StudentAPI\\Services\\IConsumer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T05:52:39.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Producer.cs",
+              "DocumentMoniker": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\Services\\Producer.cs",
+              "RelativeDocumentMoniker": "..\\src\\StudentAPI\\Services\\Producer.cs",
+              "ToolTip": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\Services\\Producer.cs",
+              "RelativeToolTip": "..\\src\\StudentAPI\\Services\\Producer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T05:45:53.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IProducer.cs",
+              "DocumentMoniker": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\Services\\IProducer.cs",
+              "RelativeDocumentMoniker": "..\\src\\StudentAPI\\Services\\IProducer.cs",
+              "ToolTip": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\Services\\IProducer.cs",
+              "RelativeToolTip": "..\\src\\StudentAPI\\Services\\IProducer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T05:45:42.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "..\\src\\StudentAPI\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "..\\src\\StudentAPI\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T07:48:28.099Z",
               "EditorCaption": ""
             },
             {
@@ -90,196 +154,40 @@
               "RelativeDocumentMoniker": "..\\src\\AccountAPI\\Program.cs",
               "ToolTip": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\AccountAPI\\Program.cs",
               "RelativeToolTip": "..\\src\\AccountAPI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAADAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T12:13:33.099Z",
+              "WhenOpened": "2024-03-03T07:36:33.48Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Mapper.cs",
-              "DocumentMoniker": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\Common\\Mapper.cs",
-              "RelativeDocumentMoniker": "..\\src\\StudentAPI\\Common\\Mapper.cs",
-              "ToolTip": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\Common\\Mapper.cs",
-              "RelativeToolTip": "..\\src\\StudentAPI\\Common\\Mapper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA8AAAA",
+              "DocumentIndex": 7,
+              "Title": "CalllAPI.cs",
+              "DocumentMoniker": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\Common\\CalllAPI.cs",
+              "RelativeDocumentMoniker": "..\\src\\StudentAPI\\Common\\CalllAPI.cs",
+              "ToolTip": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\Common\\CalllAPI.cs",
+              "RelativeToolTip": "..\\src\\StudentAPI\\Common\\CalllAPI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T12:28:51.458Z",
+              "WhenOpened": "2024-02-28T14:20:41.943Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "..\\src\\StudentAPI\\Controllers\\StudentController.cs",
-              "ToolTip": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "..\\src\\StudentAPI\\Controllers\\StudentController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T12:33:46.465Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AccountAPI.http",
-              "DocumentMoniker": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\AccountAPI\\AccountAPI.http",
-              "RelativeDocumentMoniker": "..\\src\\AccountAPI\\AccountAPI.http",
-              "ToolTip": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\AccountAPI\\AccountAPI.http",
-              "RelativeToolTip": "..\\src\\AccountAPI\\AccountAPI.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-02-28T13:23:49.857Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\Program.cs",
               "RelativeDocumentMoniker": "..\\src\\StudentAPI\\Program.cs",
               "ToolTip": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\Program.cs",
               "RelativeToolTip": "..\\src\\StudentAPI\\Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAC0AAAARAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAEMAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-28T12:07:52.34Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StudentContext.cs",
-              "DocumentMoniker": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\Data\\StudentContext.cs",
-              "RelativeDocumentMoniker": "..\\src\\StudentAPI\\Data\\StudentContext.cs",
-              "ToolTip": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\Data\\StudentContext.cs",
-              "RelativeToolTip": "..\\src\\StudentAPI\\Data\\StudentContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T12:13:27.235Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\APIGetWay\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\APIGetWay\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-28T12:07:17.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\APIGetWay\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\APIGetWay\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T12:02:07.976Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "..\\src\\StudentAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\appsettings.json",
-              "RelativeToolTip": "..\\src\\StudentAPI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-28T12:26:38.945Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "StudentAPI.http",
-              "DocumentMoniker": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\StudentAPI.http",
-              "RelativeDocumentMoniker": "..\\src\\StudentAPI\\StudentAPI.http",
-              "ToolTip": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\StudentAPI.http",
-              "RelativeToolTip": "..\\src\\StudentAPI\\StudentAPI.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-02-28T12:04:31.485Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "StudentModel.cs",
-              "DocumentMoniker": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\Models\\StudentModel.cs",
-              "RelativeDocumentMoniker": "..\\src\\StudentAPI\\Models\\StudentModel.cs",
-              "ToolTip": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\Models\\StudentModel.cs",
-              "RelativeToolTip": "..\\src\\StudentAPI\\Models\\StudentModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T12:36:18.592Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\AccountAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "..\\src\\AccountAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\AccountAPI\\appsettings.json",
-              "RelativeToolTip": "..\\src\\AccountAPI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-28T12:14:02.084Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "SignInModel.cs",
-              "DocumentMoniker": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\AccountAPI\\Models\\SignInModel.cs",
-              "RelativeDocumentMoniker": "..\\src\\AccountAPI\\Models\\SignInModel.cs",
-              "ToolTip": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\AccountAPI\\Models\\SignInModel.cs",
-              "RelativeToolTip": "..\\src\\AccountAPI\\Models\\SignInModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T11:24:22.802Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SignUpModel.cs",
-              "DocumentMoniker": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\AccountAPI\\Models\\SignUpModel.cs",
-              "RelativeDocumentMoniker": "..\\src\\AccountAPI\\Models\\SignUpModel.cs",
-              "ToolTip": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\AccountAPI\\Models\\SignUpModel.cs",
-              "RelativeToolTip": "..\\src\\AccountAPI\\Models\\SignUpModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T11:24:32.989Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "APIGetWay.http",
-              "DocumentMoniker": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\APIGetWay\\APIGetWay.http",
-              "RelativeDocumentMoniker": "APIGetWay.http",
-              "ToolTip": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\APIGetWay\\APIGetWay.http",
-              "RelativeToolTip": "APIGetWay.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-02-28T11:01:38.83Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
               "Title": "IAccountRepository.cs",
               "DocumentMoniker": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\AccountAPI\\Repositories\\IAccountRepository.cs",
               "RelativeDocumentMoniker": "..\\src\\AccountAPI\\Repositories\\IAccountRepository.cs",
@@ -287,12 +195,155 @@
               "RelativeToolTip": "..\\src\\AccountAPI\\Repositories\\IAccountRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T11:25:38.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-28T11:25:38.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\AccountAPI\\Repositories\\AccountRepository.cs",
+              "RelativeDocumentMoniker": "..\\src\\AccountAPI\\Repositories\\AccountRepository.cs",
+              "ToolTip": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\AccountAPI\\Repositories\\AccountRepository.cs",
+              "RelativeToolTip": "..\\src\\AccountAPI\\Repositories\\AccountRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T15:10:26.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\APIGetWay\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\APIGetWay\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-29T08:26:43.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\AccountAPI\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "..\\src\\AccountAPI\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\AccountAPI\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "..\\src\\AccountAPI\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T15:10:13.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Mapper.cs",
+              "DocumentMoniker": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\Common\\Mapper.cs",
+              "RelativeDocumentMoniker": "..\\src\\StudentAPI\\Common\\Mapper.cs",
+              "ToolTip": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\Common\\Mapper.cs",
+              "RelativeToolTip": "..\\src\\StudentAPI\\Common\\Mapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T07:38:08.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\APIGetWay\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\APIGetWay\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T12:02:07.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StudentContext.cs",
+              "DocumentMoniker": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\Data\\StudentContext.cs",
+              "RelativeDocumentMoniker": "..\\src\\StudentAPI\\Data\\StudentContext.cs",
+              "ToolTip": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\Data\\StudentContext.cs",
+              "RelativeToolTip": "..\\src\\StudentAPI\\Data\\StudentContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T12:13:27.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\src\\StudentAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\appsettings.json",
+              "RelativeToolTip": "..\\src\\StudentAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-28T12:26:38.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "StudentAPI.http",
+              "DocumentMoniker": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\StudentAPI.http",
+              "RelativeDocumentMoniker": "..\\src\\StudentAPI\\StudentAPI.http",
+              "ToolTip": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\StudentAPI.http",
+              "RelativeToolTip": "..\\src\\StudentAPI\\StudentAPI.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-02-28T12:04:31.485Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\AccountAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\src\\AccountAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\AccountAPI\\appsettings.json",
+              "RelativeToolTip": "..\\src\\AccountAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-28T12:14:02.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SignInModel.cs",
+              "DocumentMoniker": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\AccountAPI\\Models\\SignInModel.cs",
+              "RelativeDocumentMoniker": "..\\src\\AccountAPI\\Models\\SignInModel.cs",
+              "ToolTip": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\AccountAPI\\Models\\SignInModel.cs",
+              "RelativeToolTip": "..\\src\\AccountAPI\\Models\\SignInModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T11:24:22.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SignUpModel.cs",
+              "DocumentMoniker": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\AccountAPI\\Models\\SignUpModel.cs",
+              "RelativeDocumentMoniker": "..\\src\\AccountAPI\\Models\\SignUpModel.cs",
+              "ToolTip": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\AccountAPI\\Models\\SignUpModel.cs",
+              "RelativeToolTip": "..\\src\\AccountAPI\\Models\\SignUpModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T11:24:32.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "APIGetWay.http",
+              "DocumentMoniker": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\APIGetWay\\APIGetWay.http",
+              "RelativeDocumentMoniker": "APIGetWay.http",
+              "ToolTip": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\APIGetWay\\APIGetWay.http",
+              "RelativeToolTip": "APIGetWay.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-02-28T11:01:38.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "Role.cs",
               "DocumentMoniker": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\AccountAPI\\Common\\Role.cs",
               "RelativeDocumentMoniker": "..\\src\\AccountAPI\\Common\\Role.cs",
@@ -300,8 +351,7 @@
               "RelativeToolTip": "..\\src\\AccountAPI\\Common\\Role.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T11:22:41.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-28T11:22:41.985Z"
             }
           ]
         }

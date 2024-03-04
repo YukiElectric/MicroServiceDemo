@@ -54,8 +54,8 @@ namespace AccountAPI.Repositories
                 claims: authClaims,
                 signingCredentials: new SigningCredentials(authenKey, SecurityAlgorithms.HmacSha256Signature)
             );
-
-            return new JwtSecurityTokenHandler().WriteToken(token);
+            var tokenResult = new JwtSecurityTokenHandler().WriteToken(token);
+            return tokenResult;
         }
 
         public async Task<IdentityResult> SignUpAsync(SignUpModel model)

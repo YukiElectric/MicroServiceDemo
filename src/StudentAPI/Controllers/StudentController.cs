@@ -2,6 +2,7 @@
 using StudentAPI.Common;
 using StudentAPI.Models;
 using StudentAPI.Repositories;
+using StudentAPI.Services;
 
 namespace StudentAPI.Controllers
 {
@@ -10,29 +11,41 @@ namespace StudentAPI.Controllers
     public class StudentController : ControllerBase
     {
         private readonly IStudentRepository student;
+        private readonly IProducer _producer;
+        private readonly IConsumer _consumer;
 
-        public StudentController(IStudentRepository studentRepository)
+        public StudentController(IStudentRepository studentRepository, IProducer producer, IConsumer consumer)
         {
             student = studentRepository;
+            _producer = producer;
+            _consumer = consumer;
+        }
+
+        [HttpGet("message")]
+        public async Task<IActionResult> Get()
+        {
+            return Ok(_consumer.getMessage());
         }
 
         [HttpGet]
         public async Task<IActionResult> GetAllStudents(int page, int limit)
         {
             var token = HttpContext.Request.Headers["Authorization"].ToString();
+            _producer.sendMessage(token);
             var result = await CalllAPI.getAuth("authen", token);
-            if(string.IsNullOrEmpty(result))
+            if (result==null)
             {
                 return Ok(new
                 {
                     status = true,
-                    filter = new {
+                    filter = new
+                    {
                         page,
                         limit
                     },
                     docs = new
                     {
-                        data = await student.GetAllStudentAsync(page, limit)
+                        data = await student.GetAllStudentAsync(page, limit),
                     }
                 });
             }
@@ -44,7 +57,7 @@ namespace StudentAPI.Controllers
         {
             var token = HttpContext.Request.Headers["Authorization"].ToString();
             var result = await CalllAPI.getAuth("authen", token);
-            if(string.IsNullOrEmpty(result) )
+            if (result == null)
             {
                 var found = await student.GetStudentByIDAsync(id);
                 return found == null ? NotFound(new
@@ -65,7 +78,7 @@ namespace StudentAPI.Controllers
         {
             var token = HttpContext.Request.Headers["Authorization"].ToString();
             var result = await CalllAPI.getAuth("authen", token);
-            if (string.IsNullOrEmpty(result))
+            if (result == null)
             {
                 var found = await student.GetAllStudentByCondition(condition);
                 return found == null ? NotFound(new
@@ -86,7 +99,7 @@ namespace StudentAPI.Controllers
         {
             var token = HttpContext.Request.Headers["Authorization"].ToString();
             var result = await CalllAPI.getAuth("authen", token);
-            if (string.IsNullOrEmpty(result))
+            if (result == null)
             {
                 try
                 {
@@ -110,7 +123,7 @@ namespace StudentAPI.Controllers
         {
             var token = HttpContext.Request.Headers["Authorization"].ToString();
             var result = await CalllAPI.getAuth("authen", token);
-            if (string.IsNullOrEmpty(result))
+            if (result == null)
             {
                 try
                 {
@@ -134,7 +147,7 @@ namespace StudentAPI.Controllers
         {
             var token = HttpContext.Request.Headers["Authorization"].ToString();
             var result = await CalllAPI.getAuth("authen", token);
-            if (string.IsNullOrEmpty(result))
+            if (result == null)
             {
                 try
                 {

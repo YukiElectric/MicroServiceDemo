@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("APIGetWay")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1d89a9c9bdafe07317c8456428c5335be8a696a")]
 [assembly: System.Reflection.AssemblyProductAttribute("APIGetWay")]
 [assembly: System.Reflection.AssemblyTitleAttribute("APIGetWay")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

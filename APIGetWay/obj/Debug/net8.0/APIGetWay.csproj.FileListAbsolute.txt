@@ -32,3 +32,4 @@ C:\Users\trung\Desktop\MicroServiceDemo\APIGetWay\obj\Debug\net8.0\refint\APIGet
 C:\Users\trung\Desktop\MicroServiceDemo\APIGetWay\obj\Debug\net8.0\APIGetWay.pdb
 C:\Users\trung\Desktop\MicroServiceDemo\APIGetWay\obj\Debug\net8.0\APIGetWay.genruntimeconfig.cache
 C:\Users\trung\Desktop\MicroServiceDemo\APIGetWay\obj\Debug\net8.0\ref\APIGetWay.dll
+C:\Users\trung\Desktop\MicroServiceDemo\APIGetWay\obj\Debug\net8.0\APIGetWay.sourcelink.json
