@@ -1,8 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using MassTransit;
+using Microsoft.AspNetCore.Mvc;
+using SharedModel;
 using StudentAPI.Common;
 using StudentAPI.Models;
 using StudentAPI.Repositories;
-using StudentAPI.Services;
 
 namespace StudentAPI.Controllers
 {
@@ -11,29 +12,24 @@ namespace StudentAPI.Controllers
     public class StudentController : ControllerBase
     {
         private readonly IStudentRepository student;
-        private readonly IProducer _producer;
-        private readonly IConsumer _consumer;
+        private readonly IPublishEndpoint _publishEndPoint;
+        private readonly IRequestClient<MessageConsumer> _client;
 
-        public StudentController(IStudentRepository studentRepository, IProducer producer, IConsumer consumer)
+        public StudentController(IStudentRepository studentRepository,IPublishEndpoint publishEndpoint, IRequestClient<MessageConsumer> client)
         {
             student = studentRepository;
-            _producer = producer;
-            _consumer = consumer;
-        }
-
-        [HttpGet("message")]
-        public async Task<IActionResult> Get()
-        {
-            return Ok(_consumer.getMessage());
+            _publishEndPoint = publishEndpoint;
+            _client = client;
         }
 
         [HttpGet]
         public async Task<IActionResult> GetAllStudents(int page, int limit)
         {
             var token = HttpContext.Request.Headers["Authorization"].ToString();
-            _producer.sendMessage(token);
-            var result = await CalllAPI.getAuth("authen", token);
-            if (result==null)
+            //var result = await CalllAPI.getAuth("authen", token);
+            //await _publishEndPoint.Publish<MessageConsumer>(new {token});
+            var response = await _client.GetResponse<MessageConsumer>(new { token });
+            if (response.Message.status)
             {
                 return Ok(new
                 {
@@ -41,7 +37,7 @@ namespace StudentAPI.Controllers
                     filter = new
                     {
                         page,
-                        limit
+                        limit,
                     },
                     docs = new
                     {
@@ -49,7 +45,11 @@ namespace StudentAPI.Controllers
                     }
                 });
             }
-            return BadRequest(result);
+            return BadRequest(new
+            {
+                status = false,
+                message = "Permission denied"
+            });
         }
 
         [HttpGet("{id}")]
@@ -77,8 +77,9 @@ namespace StudentAPI.Controllers
         public async Task<IActionResult> GetStudentByCondition(string condition)
         {
             var token = HttpContext.Request.Headers["Authorization"].ToString();
-            var result = await CalllAPI.getAuth("authen", token);
-            if (result == null)
+            //var result = await CalllAPI.getAuth("authen", token);
+            var response = await _client.GetResponse<MessageConsumer>(new { token });
+            if (response.Message.status)
             {
                 var found = await student.GetAllStudentByCondition(condition);
                 return found == null ? NotFound(new
@@ -91,7 +92,11 @@ namespace StudentAPI.Controllers
                     data = found
                 });
             }
-            return BadRequest(result);
+            return BadRequest(new
+            {
+                status = false,
+                message = "Permission denied"
+            });
         }
 
         [HttpPost]

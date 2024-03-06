@@ -91,16 +91,6 @@
   },
   {
     "ContainingType": "StudentAPI.Controllers.StudentController",
-    "Method": "Get",
-    "RelativePath": "api/Student/message",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "StudentAPI.Controllers.StudentController",
     "Method": "GetStudentByCondition",
     "RelativePath": "api/Student/search",
     "HttpMethod": "GET",

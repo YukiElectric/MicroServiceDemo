@@ -1,5 +1,7 @@
+using AccountAPI.Common;
 using AccountAPI.Data;
 using AccountAPI.Repositories;
+using MassTransit;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -43,6 +45,20 @@ builder.Services.AddAuthentication(options => {
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JWT:SecretKey"]))
     };
 });
+
+builder.Services.AddMassTransit(x =>
+{
+    x.UsingRabbitMq();
+});
+
+var busControl = Bus.Factory.CreateUsingRabbitMq(config => {
+    config.ReceiveEndpoint("authen-request", e =>
+    {
+        e.Consumer<Consumer>();
+    });
+});
+
+await busControl.StartAsync(new CancellationToken());
 
 
 var app = builder.Build();

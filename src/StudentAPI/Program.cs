@@ -1,9 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
-using RabbitMQ.Client;
 using StudentAPI.Data;
 using StudentAPI.Repositories;
-using StudentAPI.Services;
+using MassTransit;
+using StudentAPI.Common;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -54,23 +54,23 @@ builder.Services.AddSwaggerGen(option =>
 });
 
 builder.Services.AddScoped<IStudentRepository, StudentRepository>();
-builder.Services.AddScoped<IConsumer, Consumer>();
-builder.Services.AddScoped<IProducer, Producer>();
 
-builder.Services.AddSingleton(sp =>
+builder.Services.AddMassTransit(x =>
 {
-    var factory = new ConnectionFactory()
-    {
-        HostName = "localhost",
-        Port = 5672,
-        UserName = "guest",
-        Password = "guest"
-    };
-    return factory.CreateConnection();
+    x.UsingRabbitMq();
 });
 
-var app = builder.Build();
 
+//var busControl = Bus.Factory.CreateUsingRabbitMq(config => {
+//    config.ReceiveEndpoint("authen-respone", e =>
+//    {
+//        e.Consumer<Consumer>();
+//    });
+//});
+
+//await busControl.StartAsync(new CancellationToken());
+
+var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
