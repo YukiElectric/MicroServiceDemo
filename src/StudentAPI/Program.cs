@@ -4,6 +4,7 @@ using StudentAPI.Data;
 using StudentAPI.Repositories;
 using MassTransit;
 using StudentAPI.Common;
+using SharedModel;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -58,17 +59,9 @@ builder.Services.AddScoped<IStudentRepository, StudentRepository>();
 builder.Services.AddMassTransit(x =>
 {
     x.UsingRabbitMq();
+    x.AddRequestClient<MessageConsumer>(new Uri("exchange:authen-request"));
 });
 
-
-//var busControl = Bus.Factory.CreateUsingRabbitMq(config => {
-//    config.ReceiveEndpoint("authen-respone", e =>
-//    {
-//        e.Consumer<Consumer>();
-//    });
-//});
-
-//await busControl.StartAsync(new CancellationToken());
 
 var app = builder.Build();
 

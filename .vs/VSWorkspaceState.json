@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\APIGetWay",
+    "\\src",
+    "\\src\\StudentAPI",
+    "\\src\\StudentAPI\\Controllers"
+  ],
+  "SelectedNode": "\\src\\StudentAPI\\Controllers\\StudentController.cs",
+  "PreviewInSolutionExplorer": false
+}

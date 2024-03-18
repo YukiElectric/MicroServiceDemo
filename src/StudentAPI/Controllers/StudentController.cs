@@ -14,12 +14,14 @@ namespace StudentAPI.Controllers
         private readonly IStudentRepository student;
         private readonly IPublishEndpoint _publishEndPoint;
         private readonly IRequestClient<MessageConsumer> _client;
+        private readonly IScopedClientFactory _scopedClientFactory;
 
-        public StudentController(IStudentRepository studentRepository,IPublishEndpoint publishEndpoint, IRequestClient<MessageConsumer> client)
+        public StudentController(IStudentRepository studentRepository,IPublishEndpoint publishEndpoint, IRequestClient<MessageConsumer> client, IScopedClientFactory scopedClientFactory)
         {
             student = studentRepository;
             _publishEndPoint = publishEndpoint;
             _client = client;
+            _scopedClientFactory = scopedClientFactory;
         }
 
         [HttpGet]
@@ -28,6 +30,8 @@ namespace StudentAPI.Controllers
             var token = HttpContext.Request.Headers["Authorization"].ToString();
             //var result = await CalllAPI.getAuth("authen", token);
             //await _publishEndPoint.Publish<MessageConsumer>(new {token});
+            //var client = _scopedClientFactory.CreateRequestClient<MessageConsumer>(new Uri("exchange:authen-request"));
+            //var response = await client.GetResponse<MessageConsumer>(new { token });
             var response = await _client.GetResponse<MessageConsumer>(new { token });
             if (response.Message.status)
             {
