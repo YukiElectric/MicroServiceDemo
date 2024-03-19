@@ -9,13 +9,15 @@
       },
       {
         "Name": "..\\src\\AccountAPI\\AccountAPI.csproj",
-        "Action": "Start",
-        "DebugTarget": "http"
+        "Action": "Start"
       },
       {
-        "Name": "..\\src\\StudentAPI\\StudentAPI.csproj",
-        "Action": "Start",
-        "DebugTarget": "http"
+        "Name": "..\\src\\StudentAPI\\StudentCommandAPI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Name": "..\\src\\StudentQueryAPI\\StudentQueryAPI.csproj",
+        "Action": "Start"
       }
     ]
   }
