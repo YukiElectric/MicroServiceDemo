@@ -5188,9 +5188,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\StudentAPI.csproj",
-      "projectName": "StudentAPI",
-      "projectPath": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\StudentAPI.csproj",
+      "projectUniqueName": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\StudentCommandAPI.csproj",
+      "projectName": "StudentCommandAPI",
+      "projectPath": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\StudentCommandAPI.csproj",
       "packagesPath": "C:\\Users\\trung\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\obj\\",
       "projectStyle": "PackageReference",
@@ -5288,7 +5288,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

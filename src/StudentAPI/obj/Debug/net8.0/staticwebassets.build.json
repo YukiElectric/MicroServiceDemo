@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "h1CWGdpJeEwSfHsrXqAIvtuaEhLdhsQIiCqRWzF8ptY=",
-  "Source": "StudentAPI",
-  "BasePath": "_content/StudentAPI",
+  "Hash": "oCKG9WkMYXkU6kEMSJnRtbPTLPpHIV9wMCSnZj/Vvko=",
+  "Source": "StudentCommandAPI",
+  "BasePath": "_content/StudentCommandAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

@@ -62,6 +62,8 @@ builder.Services.AddMassTransit(x =>
     x.AddRequestClient<MessageConsumer>(new Uri("exchange:authen-request"));
 });
 
+builder.Services.AddAutoMapper(typeof (Program));
+
 
 var app = builder.Build();
 

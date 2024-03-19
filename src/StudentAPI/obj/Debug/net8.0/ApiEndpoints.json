@@ -1,27 +1,6 @@
 [
   {
     "ContainingType": "StudentAPI.Controllers.StudentController",
-    "Method": "GetAllStudents",
-    "RelativePath": "api/Student",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "page",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "limit",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "StudentAPI.Controllers.StudentController",
     "Method": "AddNewStudent",
     "RelativePath": "api/Student",
     "HttpMethod": "POST",
@@ -31,22 +10,6 @@
       {
         "Name": "model",
         "Type": "StudentAPI.Models.StudentModel",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "StudentAPI.Controllers.StudentController",
-    "Method": "GetStudentById",
-    "RelativePath": "api/Student/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -85,22 +48,6 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "StudentAPI.Controllers.StudentController",
-    "Method": "GetStudentByCondition",
-    "RelativePath": "api/Student/search",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "condition",
-        "Type": "System.String",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": []

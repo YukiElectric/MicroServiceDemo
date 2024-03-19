@@ -57,10 +57,6 @@ var busControl = Bus.Factory.CreateUsingRabbitMq(config => {
     {
         e.Consumer<Consumer>();
     });
-    config.ReceiveEndpoint("authen-request-2", e =>
-    {
-        e.Consumer<Consumer2>();
-    });
 });
 
 await busControl.StartAsync(new CancellationToken());

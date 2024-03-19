@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Cd8tvQRlZUHi+feLPJ60iaJ6EnsEZ+DIjVc8C/v281pga7MP9/lY+/oUn62mXaQSkPHeTKwG0XwVe0gr8UkBgw==",
+  "dgSpecHash": "ciL/K0lRLOmkoW9Zzgp0hVh5d6j26/HIO+58w9SCR/iek8fC9cgz2TA3MCvDly7JwpIasR968MadSzVnvDE45w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\StudentAPI.csproj",
+  "projectFilePath": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\StudentCommandAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\trung\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\trung\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

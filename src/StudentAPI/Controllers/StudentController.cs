@@ -12,99 +12,10 @@ namespace StudentAPI.Controllers
     public class StudentController : ControllerBase
     {
         private readonly IStudentRepository student;
-        private readonly IPublishEndpoint _publishEndPoint;
-        private readonly IRequestClient<MessageConsumer> _client;
-        private readonly IScopedClientFactory _scopedClientFactory;
-        private readonly ISendEndpointProvider _sendEndPoint;
 
-        public StudentController(IStudentRepository studentRepository,IPublishEndpoint publishEndpoint, IRequestClient<MessageConsumer> client, IScopedClientFactory scopedClientFactory, ISendEndpointProvider sendEndPoint)
+        public StudentController(IStudentRepository studentRepository)
         {
             student = studentRepository;
-            _publishEndPoint = publishEndpoint;
-            _client = client;
-            _scopedClientFactory = scopedClientFactory;
-            _sendEndPoint = sendEndPoint;
-        }
-
-        [HttpGet]
-        public async Task<IActionResult> GetAllStudents(int page, int limit)
-        {
-            var token = HttpContext.Request.Headers["Authorization"].ToString();
-            var result = await CalllAPI.getAuth("authen", token);
-            //await _publishEndPoint.Publish<MessageConsumer>(new { token });
-            //var endPoint = await _sendEndPoint.GetSendEndpoint(new Uri("exchange:authen-request"));
-            //await endPoint.Send<MessageConsumer>(new { token });
-            //var client = _scopedClientFactory.CreateRequestClient<MessageConsumer>(new Uri("exchange:authen-request"));
-            //var response = await client.GetResponse<MessageConsumer>(new { token });
-            var response = await _client.GetResponse<MessageConsumer>(new { token });
-            if (response.Message.status)
-            {
-                return Ok(new
-                {
-                    status = true,
-                    filter = new
-                    {
-                        page,
-                        limit,
-                    },
-                    docs = new
-                    {
-                        data = await student.GetAllStudentAsync(page, limit),
-                    }
-                });
-            }
-            return BadRequest(new
-            {
-                status = false,
-                message = "Permission denied"
-            });
-        }
-
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetStudentById(int id)
-        {
-            var token = HttpContext.Request.Headers["Authorization"].ToString();
-            var result = await CalllAPI.getAuth("authen", token);
-            if (result == null)
-            {
-                var found = await student.GetStudentByIDAsync(id);
-                return found == null ? NotFound(new
-                {
-                    status = false,
-                    message = "Cann't not found this id"
-                }) : Ok(new
-                {
-                    status = true,
-                    data = found
-                });
-            }
-            return BadRequest(result);
-        }
-
-        [HttpGet("search")]
-        public async Task<IActionResult> GetStudentByCondition(string condition)
-        {
-            var token = HttpContext.Request.Headers["Authorization"].ToString();
-            //var result = await CalllAPI.getAuth("authen", token);
-            var response = await _client.GetResponse<MessageConsumer>(new { token });
-            if (response.Message.status)
-            {
-                var found = await student.GetAllStudentByCondition(condition);
-                return found == null ? NotFound(new
-                {
-                    status = false,
-                    message = "Cann't not found this condition"
-                }) : Ok(new
-                {
-                    status = true,
-                    data = found
-                });
-            }
-            return BadRequest(new
-            {
-                status = false,
-                message = "Permission denied"
-            });
         }
 
         [HttpPost]
