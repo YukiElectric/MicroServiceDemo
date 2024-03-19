@@ -15,21 +15,25 @@ namespace StudentAPI.Controllers
         private readonly IPublishEndpoint _publishEndPoint;
         private readonly IRequestClient<MessageConsumer> _client;
         private readonly IScopedClientFactory _scopedClientFactory;
+        private readonly ISendEndpointProvider _sendEndPoint;
 
-        public StudentController(IStudentRepository studentRepository,IPublishEndpoint publishEndpoint, IRequestClient<MessageConsumer> client, IScopedClientFactory scopedClientFactory)
+        public StudentController(IStudentRepository studentRepository,IPublishEndpoint publishEndpoint, IRequestClient<MessageConsumer> client, IScopedClientFactory scopedClientFactory, ISendEndpointProvider sendEndPoint)
         {
             student = studentRepository;
             _publishEndPoint = publishEndpoint;
             _client = client;
             _scopedClientFactory = scopedClientFactory;
+            _sendEndPoint = sendEndPoint;
         }
 
         [HttpGet]
         public async Task<IActionResult> GetAllStudents(int page, int limit)
         {
             var token = HttpContext.Request.Headers["Authorization"].ToString();
-            //var result = await CalllAPI.getAuth("authen", token);
-            //await _publishEndPoint.Publish<MessageConsumer>(new {token});
+            var result = await CalllAPI.getAuth("authen", token);
+            //await _publishEndPoint.Publish<MessageConsumer>(new { token });
+            //var endPoint = await _sendEndPoint.GetSendEndpoint(new Uri("exchange:authen-request"));
+            //await endPoint.Send<MessageConsumer>(new { token });
             //var client = _scopedClientFactory.CreateRequestClient<MessageConsumer>(new Uri("exchange:authen-request"));
             //var response = await client.GetResponse<MessageConsumer>(new { token });
             var response = await _client.GetResponse<MessageConsumer>(new { token });
