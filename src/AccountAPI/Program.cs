@@ -49,17 +49,15 @@ builder.Services.AddAuthentication(options => {
 
 builder.Services.AddMassTransit(x =>
 {
-    x.UsingRabbitMq();
-});
-
-var busControl = Bus.Factory.CreateUsingRabbitMq(config => {
-    config.ReceiveEndpoint("authen-request", e =>
+    x.AddConsumer<Consumer>().Endpoint(e => e.Name = "authen-request");
+    x.UsingRabbitMq((context, cfg) =>
     {
-        e.Consumer<Consumer>();
+        cfg.ReceiveEndpoint("authen-request", e =>
+        {
+            e.ConfigureConsumer<Consumer>(context);
+        });
     });
 });
-
-await busControl.StartAsync(new CancellationToken());
 
 
 var app = builder.Build();

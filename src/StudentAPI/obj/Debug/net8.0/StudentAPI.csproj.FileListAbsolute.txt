@@ -145,3 +145,5 @@ C:\Users\trung\Desktop\MicroServiceDemo\src\StudentAPI\bin\Debug\net8.0\MassTran
 C:\Users\trung\Desktop\MicroServiceDemo\src\StudentAPI\bin\Debug\net8.0\SharedModel.dll
 C:\Users\trung\Desktop\MicroServiceDemo\src\StudentAPI\bin\Debug\net8.0\SharedModel.pdb
 C:\Users\trung\Desktop\MicroServiceDemo\src\StudentAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\trung\Desktop\MicroServiceDemo\src\StudentAPI\bin\Debug\net8.0\MediatR.dll
+C:\Users\trung\Desktop\MicroServiceDemo\src\StudentAPI\bin\Debug\net8.0\MediatR.Contracts.dll

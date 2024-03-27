@@ -7,11 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIGetWay", "APIGetWay.cspr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountAPI", "..\src\AccountAPI\AccountAPI.csproj", "{42ABA7D0-D414-489F-A4DA-4D3A79559708}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentCommandAPI", "..\src\StudentAPI\StudentCommandAPI.csproj", "{9C09BADA-1E26-45A6-836F-D7B43014B835}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentAPI", "..\src\StudentAPI\StudentAPI.csproj", "{9C09BADA-1E26-45A6-836F-D7B43014B835}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedModel", "..\SharedModel\SharedModel.csproj", "{BE7B63BA-91CC-4CBA-9BF1-EFDDBDA0D927}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentQueryAPI", "..\src\StudentQueryAPI\StudentQueryAPI.csproj", "{394B3E6C-EE66-4344-8CBC-D0BCE3645702}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +33,6 @@ Global
 		{BE7B63BA-91CC-4CBA-9BF1-EFDDBDA0D927}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE7B63BA-91CC-4CBA-9BF1-EFDDBDA0D927}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE7B63BA-91CC-4CBA-9BF1-EFDDBDA0D927}.Release|Any CPU.Build.0 = Release|Any CPU
-		{394B3E6C-EE66-4344-8CBC-D0BCE3645702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{394B3E6C-EE66-4344-8CBC-D0BCE3645702}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{394B3E6C-EE66-4344-8CBC-D0BCE3645702}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{394B3E6C-EE66-4344-8CBC-D0BCE3645702}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

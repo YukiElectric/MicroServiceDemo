@@ -1,9 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using StudentAPI.Data;
-using StudentAPI.Repositories;
 using MassTransit;
-using StudentAPI.Common;
 using SharedModel;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -54,14 +52,13 @@ builder.Services.AddSwaggerGen(option =>
     });
 });
 
-builder.Services.AddScoped<IStudentRepository, StudentRepository>();
-
 builder.Services.AddMassTransit(x =>
 {
     x.UsingRabbitMq();
     x.AddRequestClient<MessageConsumer>(new Uri("exchange:authen-request"));
 });
 
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Program).Assembly));
 builder.Services.AddAutoMapper(typeof (Program));
 
 

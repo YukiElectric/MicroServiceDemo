@@ -1,6 +1,5 @@
 ﻿using AccountAPI.Models;
 using AccountAPI.Repositories;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AccountAPI.Controllers
@@ -45,28 +44,6 @@ namespace AccountAPI.Controllers
                 status = true,
                 message = "Login successfully",
                 token = result.ToString()
-            });
-        }
-
-        [HttpGet("authen")]
-        [Authorize]
-        public async Task<IActionResult> Authentication()
-        {
-            return Ok(new
-            {
-                status = true,
-                message = "You have student permission"
-            });
-        }
-
-        [HttpGet("author")]
-        [Authorize("admin")]
-        public async Task<IActionResult> Authorization()
-        {
-            return Ok(new
-            {
-                status = true,
-                message = "You have admin permission"
             });
         }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ciL/K0lRLOmkoW9Zzgp0hVh5d6j26/HIO+58w9SCR/iek8fC9cgz2TA3MCvDly7JwpIasR968MadSzVnvDE45w==",
+  "dgSpecHash": "PhSTYEaQqFbF7CqfYpRUSMwbceTeVQ6hYGbKcM3PGLXOVrIxe8flsFuy80QJyOkq0p6Nkn9x0/HVUOltk5ntjQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\StudentCommandAPI.csproj",
+  "projectFilePath": "C:\\Users\\trung\\Desktop\\MicroServiceDemo\\src\\StudentAPI\\StudentAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\trung\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\trung\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
@@ -13,6 +13,8 @@
     "C:\\Users\\trung\\.nuget\\packages\\masstransit.aspnetcore\\7.3.1\\masstransit.aspnetcore.7.3.1.nupkg.sha512",
     "C:\\Users\\trung\\.nuget\\packages\\masstransit.extensions.dependencyinjection\\7.3.1\\masstransit.extensions.dependencyinjection.7.3.1.nupkg.sha512",
     "C:\\Users\\trung\\.nuget\\packages\\masstransit.rabbitmq\\8.1.3\\masstransit.rabbitmq.8.1.3.nupkg.sha512",
+    "C:\\Users\\trung\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\trung\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\trung\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\trung\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
     "C:\\Users\\trung\\.nuget\\packages\\microsoft.codeanalysis.common\\4.5.0\\microsoft.codeanalysis.common.4.5.0.nupkg.sha512",
